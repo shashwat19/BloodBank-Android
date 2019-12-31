@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blood Bank-Donor Finder</string>
+
+    <string-array name="bloodgroup">
+        <item>Select Blood Group</item>
+        <item>A(positive)</item>
+        <item>O(positive)</item>
+        <item>B(positive)</item>
+        <item>AB(positive)</item>
+        <item>A(negative)</item>
+        <item>O(negative)</item>
+        <item>B(negative)</item>
+        <item>AB(negative)</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_emergency">Emergency</string>
+</resources>

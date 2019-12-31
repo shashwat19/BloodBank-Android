@@ -1,0 +1,1 @@
+https://api.data.gov.in/resource/7d208ae4-5d65-47ec-8cb8-2a7a7ac89f8c?api-key=579b464db66ec23bdd00000102b7560567124ea5650210867e456e7a&format=json&offset=0filters[state]=Delhi

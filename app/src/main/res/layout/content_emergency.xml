@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context="com.simplicity.bloodbank.Emergency">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pd"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:drawableLeft="@drawable/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:hint=" Name"/>
+
+            <EditText
+                android:id="@+id/hospname"
+                android:drawableLeft="@drawable/hospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="10dp"
+                android:hint=" Hospital Name"/>
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:drawableLeft="@drawable/address"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hospname"
+                android:layout_marginTop="10dp"
+                android:hint=" City"/>
+
+            <EditText
+                android:id="@+id/ph"
+                android:layout_width="match_parent"
+                android:drawableLeft="@drawable/phone"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:hint=" Phone No."/>
+
+            <Spinner
+                android:id="@+id/bloodgrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/ph"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:background="@drawable/border"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:layout_below="@+id/bloodgrp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="70dp"
+                />
+
+            <Button
+                android:id="@+id/rs"
+                android:background="@drawable/border"
+                android:textColor="#ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bloodgrp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="70dp"
+                android:layout_alignParentRight="true"
+                android:text="reset"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

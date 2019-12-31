@@ -1,0 +1,2 @@
+https://simplicitydev.000webhostapp.com/getdata.php
+https://simplicitydev.000webhostapp.com/setdata.php

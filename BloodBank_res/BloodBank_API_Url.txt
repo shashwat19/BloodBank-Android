@@ -1,0 +1,3 @@
+String getUrl="https://api.data.gov.in/resource/fced6df9-a360-4e08-8ca0-f283fc74ce15?api-key=579b464db66ec23bdd00000102b7560567124ea5650210867e456e7a&format=json&offset=0&limit=3000";
+
+filters[__state]=Delhi

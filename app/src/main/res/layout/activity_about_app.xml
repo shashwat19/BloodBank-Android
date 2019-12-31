@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="163dp"
+                android:layout_height="163dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/bb_logo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:text="Blood Bank-Donor Finder"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+                    android:gravity="center"
+                    android:text="This app is for searching Hospitals and Blood banks
+anywhere in India. So that if a person is in need of blood then he can get to know that which Blood Banks are available in his/her locality."
+                    android:textSize="15sp"
+                    android:layout_below="@id/textView3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API AND SUPPORT LIBRARIES USED:"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="16dp"
+        style="@style/Base.TextAppearance.AppCompat.Title" />
+
+
+
+                <TextView
+                    android:id="@+id/volley"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+                    android:text="Volley"
+                    android:layout_marginTop="8dp"
+                    android:textColorLink="@android:color/black"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/textView5"
+                    android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/lottie"
+        android:layout_width="wrap_content"
+        android:textColorLink="@android:color/black"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Lottie Library"
+        android:textAlignment="center"
+        android:layout_below="@+id/volley"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Card View"
+        android:textAlignment="center"
+        android:layout_below="@+id/lottie"
+        android:textColorLink="@android:color/black"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/recyclerview"
+        android:layout_width="wrap_content"
+        android:textColorLink="@android:color/black"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Recycler View"
+        android:textAlignment="center"
+        android:layout_below="@+id/cardview"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/bb_api"
+        android:textColorLink="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Blood Bank Directory API"
+        android:textAlignment="center"
+        android:layout_below="@+id/recyclerview"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/hosp_api"
+        android:layout_width="wrap_content"
+        android:textColorLink="@android:color/black"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Hospital Directory API"
+        android:textAlignment="center"
+        android:layout_below="@+id/bb_api"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/st_json"
+        android:layout_width="wrap_content"
+        android:textColorLink="@android:color/black"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="States and Districts Directory JSON"
+        android:textAlignment="center"
+        android:layout_below="@+id/hosp_api"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/webhost"
+        android:layout_width="wrap_content"
+        android:textColorLink="@android:color/black"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="000Webhost Server"
+        android:textAlignment="center"
+        android:layout_below="@+id/st_json"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Created By:"
+                    style="@style/Base.TextAppearance.AppCompat.Title"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/webhost"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/textView7"
+                    android:text="Simplicity Dev (Shashwat Kunwar)"
+                    android:layout_centerHorizontal="true"/>
+</RelativeLayout>

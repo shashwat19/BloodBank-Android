@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Dr. Ram Manohar Lohia Hospital Blood Bank"
+        android:textSize="20sp"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textSize="15sp"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Address: 161, Kali Bari Ln, Havelock Square, Type III, President's Estate"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Phone: 01123404291, 01123404298"/>
+</LinearLayout>
